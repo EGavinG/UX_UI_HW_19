@@ -52,6 +52,7 @@ body{
     color: #7C7C79;
     justify-content: center;
     overflow-x: hidden;
+    align-content: center;
 }
 
 footer{
@@ -83,12 +84,15 @@ footer > ul {
     float: right;
     text-align: right;
     width: 100%;
+    
 }
 
 .row{
     display: flex;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
+    border: 2px #2B2B2B solid;
+    
 }
 
 h4{

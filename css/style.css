@@ -25,9 +25,10 @@
 .content{
     width: 1100px;
     margin: 0 auto;
-    text-align: right;
     font-family: "TS Block";
-    font-size: 18px;
+    font-size: 20px;
+    text-align: left;
+
 }
 
 .Skills{
@@ -94,6 +95,7 @@ footer > ul {
     font-size: 18px;
     margin-top:10px;
     padding: 0 150px 0 0;
+    text-align: left;
 }
 .center{
     text-align: center;
