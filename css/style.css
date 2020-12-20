@@ -7,7 +7,6 @@
 .logo{
     width: 20%;
     padding: 0%;
-
 }
 
 .Aboutme{
@@ -21,7 +20,6 @@
     height: 850px;
     padding: 0px;
     text-align: right;
-            
 }
 
 .content{
@@ -35,14 +33,11 @@
 .Skills{
     width: 900px;
     margin: 0 auto;
-   
-
 }
 
 .left {
     float: left;
     padding: 0 50px 0 0;
-   
 }
 
 nav{
@@ -53,9 +48,6 @@ nav{
     color: #2b2b2b;
     position: absolute;
     display: block;
-    
-    
-    
 }
 
 h1 {
@@ -103,14 +95,51 @@ footer > ul {
     margin-top:10px;
     padding: 0 150px 0 0;
 }
+.center{
+    text-align: center;
+}
 
-.button{
-    background: #FAF8F4;
+.button {
+    background-color: #FAF8F4;
     color: #2B2B2B;
-    border: 2px #2B2B2B;
+    border: 2px #2B2B2B solid;
     font-size: 20px;
-    font-weight: 800;
+    letter-spacing: 2px;
     width: 540px;
     height: 50px;
     align-content: center;
+    text-align: center;
+    font-family: "TS Block";
   }
+
+  a:link {
+    text-decoration: none;
+    
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #2B2B2B;
+
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #7C7C79; 
+
+  }
+  
+  a:active {
+    text-decoration: none;
+    background-color: #2B2B2B;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .left, .right .body {
+        text-align: center;
+    }
+    .row .body {
+        flex-direction: column;
+        width: 100%;
+    }
+}
